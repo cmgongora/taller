@@ -1,0 +1,162 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html ng-app="CoursesApp" class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html ng-app="CoursesApp" class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html ng-app="CoursesApp" class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html ng-app="CoursesApp" class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Laboratorio de Innovación Educativa</title>
+        <meta name="description" content="Plataforma de arranque para los cursos de Formación Docente.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="apple-touch-icon" href="../../assets/images/ircfavicon.ico">
+        <link rel="icon" href="../../assets/images/ircfavicon.ico">
+        <!--[if IE]><link rel="shortcut icon" href="favicon.ico"><![endif]-->
+        <!-- or, set /favicon.ico for IE10 win -->
+        <meta name="msapplication-TileColor" content="#D83434">
+        <meta name="msapplication-TileImage" content="apple-touch-icon-precomposed.png">
+
+        <!-- font -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
+        <!-- Third party plugin CSS-->
+    <link rel="stylesheet" type="text/css" href="../css/vivify.min.css">
+
+        <!-- <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css"> -->
+        <link rel="stylesheet" href="../../assets/css/normalize.css">
+        <!-- <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css"> -->
+        <link rel="stylesheet" href="../../assets/css/milligram.min.css">
+        <link rel="stylesheet" href="../../assets/css/styles.css">
+        <link rel="stylesheet" href="../../assets/css/styles_recursos.css">
+        <link rel="stylesheet" href="../../assets/css/vivify.min.css">
+        <link rel="stylesheet" type="../../assets/css/style.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script> -->
+        <script src="../../assets/js/vendor/modernizr-2.7.1.min.js"></script>        
+    </head>
+    <body>
+        <header>
+            <div class="menu-accesibilidad">
+                <!--<ul>
+                    <li><a href="" title="aumenta"><i class="fas fa-plus-circle"></i></a></li>
+                    <li><a href="" title="disminuye"><i class="fas fa-minus-circle"></i></a></li>
+                    <li><a href="" title="contraste"><i class="fas fa-adjust"></i></a></li>
+                    <li><a href="" title="descargar"><i class="fas fa-download"></i></a></li>
+                </ul>
+                <ul>
+                    <li><a href="#!/" title="inicio"><i class="fas fa-home"></i></a></li>
+                    <li><a href="" title="salir"><i class="fas fa-sign-out-alt"></i></a></li>
+                </ul>-->
+            </div>
+            <div>
+                Aplicaciones prácticas de la Inteligencia Artificial en la Educación Superior
+            </div>
+        </header>
+        <nav>
+            <div class="container menu-principal">
+                <div class="row">
+                    <div class="column">
+                        <ul class="menu">
+                            <li class="unidad-activa"><a href="#bloque-1" title="bloque 1">Bloque 1</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="column">
+                       <!-- <ul class="menu">
+                            <li><a href="" title="personal"><i class="fas fa-users"></i></a></li>
+                            <li><a href="" title="comunicación"><i class="fas fa-comments"></i></a></li>
+                            <li><a href="" title="recursos"><i class="fas fa-book"></i></a></li>
+                            <li><a href="" title="consulta"><i class="fas fa-file-alt"></i></a></li>
+                            <li><a href="" title="herramientas"><i class="fas fa-wrench"></i></a></li>
+                        </ul>-->
+                    </div>
+                </div>
+            </div>
+            <div id="submenu">
+                <div class="container">
+                    <div class="row">
+                        <div class="column">
+                            <ul id="bloque-1">
+                                <li><a href="../../index.html">Presentación y objetivo</a></li>
+								<li><a href="b1_1_i.html">Incidente crítico</a></li>
+								<li><a href="b1_p3.html">Estilos de párrafo</a></li>
+							    <li><a href="b1_p4.html">Interacciones en texto</a></li>
+								<li><a href="b1_p5.html">Objetos de aprendizaje</a></li>
+								<li><a href="b1_p6.html">Galerías</a></li>
+								<li><a href="b1_p7.html">Cierre de unidad</a></li>
+								<li><a href="b1_p8.html">Fuentes de consulta</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--<section id="container">
+            <article class="container" ng-view></article>       
+        </section>-->
+
+        <section class="wrapper">
+            <div class="contenido-principal">
+				<article>
+                    <h2><img class="icono-link" src="../../assets/images/desafio.svg" width="15%" />1.1 ¿Qué es una Inteligencia artificial (IA)?</h2>
+                </article>
+				
+				<article class="row">
+                    <div class="column">
+<p>Entendemos la definici&oacute;n de la Inteligencia Artificial (IA) como la capacidad de las m&aacute;quinas para imitar y realizar actividades que normalmente requerir&iacute;an inteligencia humana. En pocas palabras, es la creaci&oacute;n de sistemas inform&aacute;ticos que pueden pensar, aprender y tomar decisiones de manera similar a los seres humanos. Adem&aacute;s tienen la capacidad para simular procesos de pensamiento humano, como el aprendizaje, la percepci&oacute;n y la toma de decisiones. Utilizando algoritmos y modelos matem&aacute;ticos, la Inteligencia artificial (IA) puede analizar y aprender de grandes conjuntos de datos para generar conocimiento y solucionar problemas complejos. Los alcances de la Inteligencia artificial (IA) en la humanidad son inmensos. Desde la medicina hasta la industria, En este sentido ha demostrado su val&iacute;a al mejorar la eficiencia, aumentar la precisi&oacute;n y facilitar la toma de decisiones en diversas &aacute;reas. En la medicina, por ejemplo, puede diagnosticar enfermedades con una mayor exactitud y rapidez, lo que permite tratamientos m&aacute;s efectivos y salvamento de vidas. En la industria, automatiza tareas repetitivas y peligrosas, aumentando la productividad y la seguridad. Como todas las tecnolog&iacute;as, tambi&eacute;n tiene ventajas y desventajas. Entre las ventajas, se destaca su capacidad para procesar y analizar grandes cantidades de datos r&aacute;pidamente, brindando informaci&oacute;n precisa y valiosa. Adem&aacute;s, puede aprender y adaptarse a medida que se enfrenta a nuevas situaciones, mejorando continuamente su desempe&ntilde;o. Sin embargo, las desventajas incluyen la falta de &eacute;tica en su uso, especialmente en t&eacute;rminos de privacidad y seguridad. La Inteligencia Artificial nunca ha sido neutral ni es capaz de distinguir entre acciones que puedan da&ntilde;ar a otros. Las decisiones basadas en la IA son susceptibles de perjudicar a otros, discriminarlos o de generar sesgos de informaci&oacute;n que atienden a deseos e intereses particulares.&nbsp; La dependencia excesiva de las m&aacute;quinas tambi&eacute;n plantea riesgos de desplazamiento laboral.</p>
+<p>La forma en la que opera se basa en algoritmos y modelos matem&aacute;ticos que permiten a las m&aacute;quinas procesar y analizar grandes vol&uacute;menes de datos para extraer patrones, aprender de ellos y realizar tareas de manera m&aacute;s eficiente, pero carecen de la posibilidad de realizar juicios sobre la actividad que realizan. Estos sistemas pueden ser dise&ntilde;ados para resolver problemas complejos, reconocer im&aacute;genes y voz, tomar decisiones en tiempo real y mucho m&aacute;s.</p>
+<p>Existen diferentes enfoques dentro de la Inteligencia artificial (IA), como el aprendizaje autom&aacute;tico (machine learning) y el aprendizaje profundo (deep learning).</p>
+<p>&nbsp;El aprendizaje autom&aacute;tico se basa en algoritmos que permiten a las m&aacute;quinas aprender a trav&eacute;s de datos y experiencia, mejorando su desempe&ntilde;o con el tiempo. Por otro lado, el aprendizaje profundo, inspirado en las redes neuronales del cerebro humano, permite a las m&aacute;quinas aprender y clasificar informaci&oacute;n de manera jer&aacute;rquica y compleja.</p>
+<p>Es importante destacar que la Inteligencia artificial (IA) abarca diferentes niveles de inteligencia, desde sistemas con habilidades especializadas hasta sistemas m&aacute;s generales con capacidad para realizar tareas cognitivas complejas. Sin embargo, a&uacute;n estamos lejos de alcanzar una "inteligencia artificial general" que pueda igualar o superar la inteligencia humana en todos los aspectos.</p>
+<p>Existen dos tipos de inteligencia artificial:</p>
+
+<p>aqui va la pestaña</p>
+<p>En resumen, la inteligencia artificial se refiere a la capacidad de las máquinas para imitar y realizar tareas que normalmente requieren inteligencia humana. A través de algoritmos y modelos matemáticos, la Inteligencia artificial (IA) puede analizar datos, aprender y tomar decisiones, lo que la convierte en una herramienta poderosa en diversas áreas de la vida cotidiana. El siguiente diagrama muestra las definiciones, historia, ventajas y desventajas de la Inteligencia Artificial.</p>
+					
+					
+				</article>	
+
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="column">
+                            <div class="logotipos">
+                                <img src="../../assets/images/logos_encabezado.svg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+
+        <div class="modal-background"></div>
+        <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script> -->
+        <script src="../../assets/js/vendor/fontawesome-all.min.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.6/angular.min.js"></script> -->
+        <script src="../../assets/js/vendor/angular.min.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.6/angular-route.min.js"></script> -->
+        <script src="../../assets/js/vendor/angular-route.min.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.6.6/angular-sanitize.min.js"></script> -->
+        <script src="../../assets/js/vendor/angular-sanitize.min.js"></script>
+        <script src="../../assets/js/plugins.js"></script>
+        <script src="../../assets/js/app.js"></script>
+        <script src="../../assets/js/main.js"></script>
+         <!--scripts -->
+   
+        <script src="../js/code.js"></script>
+        <!-- galeria 5 -->
+    <script src="../js/scripts.js"></script>
+        
+        
+        <!-- popper -->
+    <script>
+      $(function () {
+        $('[data-toggle="popover"]').popover()
+      })
+    </script>
+    </body>
+</html>
